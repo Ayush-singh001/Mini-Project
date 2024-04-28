@@ -1,0 +1,29 @@
+import math
+number=int(input("Enter a number1  = "))
+number2=int(input("Enter anumber2 without zero = "))
+choice=input("Select which operation you want to perform! (+,-,*,**,/,//,%,sqrt,fact): =")
+if choice=="+":
+    print("The add of two is",number+number2)
+elif choice=="-":
+    print("The subtract of two is",number-number2)
+elif choice=="*":
+    print("The multlple of two is",number*number2)
+elif choice=="**":
+    print("The power of two is",number**number2)
+elif choice=="/":
+    print("The division of two is with float value",number/number2)
+elif choice=="//":
+    print("The division of two with int value",number//number2)
+elif choice=="sqrt":
+    print("The number of square  root first number is",math.sqrt(number))
+elif choice=="sqrt":
+    print("The number2 of square root is",math.sqrt(number2))
+elif choice=="fact":
+    print("The factorial of number is",math.factorial(number))
+elif choice=="fact":
+    print("The factorial of number2 is",math.factorial(number2))
+elif choice=="%":
+    print("The number of remder",number%number2)
+else:
+    print("Invalid Character")    
+    
