@@ -1,0 +1,21 @@
+m1=int(input("Enter your mark of math upto 100 mark only"))
+m2=int(input("Enter your mark of science upto 100 mark only"))
+m3=int(input("Enter your marh of computer upto 100 mark only"))
+
+total= m1+m2+m3
+avg=total/3
+print("Marks=",total,avg)
+if(avg>=90):
+    print("grade o")
+elif(avg>=80):
+    print("grade a+")
+elif(avg>=70):
+    print("grade a")
+elif(avg>=60):
+    print("grade b+")
+elif(avg>=50):
+    print("grade b")
+elif(avg>=41):
+    print("grade c")
+else:
+    print("fail")
